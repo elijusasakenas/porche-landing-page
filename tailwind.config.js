@@ -5,7 +5,14 @@ export default {
     './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        alex: ['Alex Brush', 'cursive']
+      },
+      colors: {
+        'drblue': '#001A34'
+      }
+    }
   },
   plugins: []
 }

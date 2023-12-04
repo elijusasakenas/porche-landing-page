@@ -1,9 +1,13 @@
 import { React } from 'react'
-import LandingAnimation from './components/landing-animation'
+import AnimationLand from './components/landing-animation'
+import LandingPage from './components/landing-page'
 
 function App (): JSX.Element {
   return (
-    <LandingAnimation></LandingAnimation>
+    <>
+      <AnimationLand/>
+      <LandingPage></LandingPage>
+    </>
   )
 }
 
