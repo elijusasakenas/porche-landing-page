@@ -7,10 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        alex: ['Alex Brush', 'cursive']
+        'alex': ['Alex Brush', 'cursive'],
+        'bebas': ['Bebas Neue', 'cursive']
       },
       colors: {
-        'drblue': '#001A34'
+        'drblue': '#001A34',
+        'lightblue': '#5E78A6'
       }
     }
   },
